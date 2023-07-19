@@ -1,0 +1,61 @@
+
+.showText {
+    width: 80%;
+    border: 1px solid white;
+    height: 7rem;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.showText span {
+    margin: .6rem 1rem;
+    font-size: 2.2rem;
+    color: white;
+    font-weight: 600;
+    padding: .3rem;
+    border-radius: 5px;
+}
+
+.normal {
+    background: rgb(97, 97, 97);
+}
+
+.wrong {
+
+    background: red;
+
+}
+
+.right {
+
+    background: rgba(99, 238, 7, 0.4);
+}
+.typeText{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 3rem;
+    padding: 1rem;
+}
+.typeText input{
+    width: 80%;
+    height: 2.5rem;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+    padding: .5rem;
+    background: white;
+    color: black;
+    border-radius: 5px;
+}
+.typeText .timer{
+    color: white;
+    padding: .6rem;
+    font-size: 2.2rem;
+    background: green;
+    margin-left: 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+}
