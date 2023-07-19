@@ -152,6 +152,7 @@ function App() {
         _(".resultSection").style.display = "none"
         _(".timer").innerHTML = 60
         backSpaceCount.current = 0;
+         clearInterval(sec.current)
     }
 
 
